@@ -251,7 +251,7 @@ const Nav = () => {
                         Home
                     </Link>
                 </NavbarItem>
-                <Dropdown>
+                <Dropdown className='bg-[#DBC2FF]'>
                     <NavbarItem>
                         <DropdownTrigger>
                         <Button
@@ -278,7 +278,7 @@ const Nav = () => {
                         </DropdownItem>
                     </DropdownMenu>
                 </Dropdown>
-                <Dropdown>
+                <Dropdown className='bg-[#DBC2FF]'>
                 <NavbarItem>
                     <DropdownTrigger>
                     <Button
