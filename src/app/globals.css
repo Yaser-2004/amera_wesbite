@@ -18,4 +18,9 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom right, #38065D, #250556);
+}
+
+header {
+  max-width: 1400px !important;
 }
