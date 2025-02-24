@@ -15,7 +15,7 @@ const eligibilityCriteria = [
 export default function EligibilitySection() {
   return (
     <motion.div initial={{translateY:80}} whileInView={{translateY:0}} viewport={{amount:"some",once:true}} transition={{duration:1}}>
-    <section className="container p-6 mx-auto flex flex-col lg:flex-row gap-8">
+    <section className="max-w-[1300px]  mx-auto flex flex-col lg:flex-row gap-8">
       <div className="flex-1">
         <h2 className="text-2xl md:text-3xl font-bold tracking-tighter  mb-6 text-[#DBC2FF]">Eligibility Criteria & Requirements</h2>
         <ul className="space-y-4">

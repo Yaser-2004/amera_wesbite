@@ -22,13 +22,14 @@ const Hero = () => {
                 Start Your Search <ArrowUpRight />
             </Button>
         </div>
-        {/* <motion.div initial={{translateY:100}} whileInView={{translateY:0}} viewport={{amount:"some",once:true}} transition={{duration:1}}> */}
+
+        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{amount:0.8,once:true}} transition={{duration:1}}  onViewportEnter={() => alert("Element entered viewport")}> 
         <div className='absolute top-[70%] left-0 bg-[#250556] w-[400px] p-10 rounded-lg  border-[#250556] backdrop-blur-md bg-opacity-30 text-[#DBC2FF] text-sm'>
           <p>- We specialize in securing high-value project funding (₹10Cr+) through government banks and private equity investors.</p>
           <br/>
           <p>- Our expertise spans industries like hospitality, healthcare, energy, agriculture, real estate, education, and manufacturing.</p>
         </div>
-       
+       </motion.div>
 
         {/* <motion.div initial={{translateY:100}} whileInView={{translateY:0}} viewport={{amount:"some",once:true}} transition={{duration:1}}> */}
         <div className='absolute top-[50%] right-0 bg-[#250556] w-[400px] p-10 rounded-lg border-[#250556] backdrop-blur-md bg-opacity-30 text-[#DBC2FF] text-sm'>
