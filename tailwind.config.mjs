@@ -13,6 +13,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        myblue : "#4A249D",
+        pairup1:"#5A72A0",
+        pairup2:"#83B4FF",
+        mybrown:"#6D2323",
+
       },
     },
   },
