@@ -236,7 +236,7 @@ const Nav = () => {
       };
 
   return (
-        <Navbar onMenuOpenChange={setIsMenuOpen} className='bg-[#6D2323] h-24'>
+        <Navbar onMenuOpenChange={setIsMenuOpen} className='bg-[#1E014C] h-24'>
 
             <NavbarMenuToggle
                 aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -247,7 +247,7 @@ const Nav = () => {
             </NavbarBrand>
             <NavbarContent className="hidden sm:flex gap-10" justify="center">
                 <NavbarItem>
-                    <Link color="foreground" href="#" className='text-white'>
+                    <Link color="foreground" href="#" className='text-[#DBC2FF]'>
                         Home
                     </Link>
                 </NavbarItem>
@@ -256,7 +256,7 @@ const Nav = () => {
                         <DropdownTrigger>
                         <Button
                             disableRipple
-                            className="p-0 bg-transparent data-[hover=true]:bg-transparent text-white text-md"
+                            className="p-0 bg-transparent data-[hover=true]:bg-transparent text-[#DBC2FF] text-md"
                             endContent={icons.chevron}
                             radius="sm"
                             variant="light"
@@ -283,7 +283,7 @@ const Nav = () => {
                     <DropdownTrigger>
                     <Button
                         disableRipple
-                        className="p-0 bg-transparent data-[hover=true]:bg-transparent text-white text-md"
+                        className="p-0 bg-transparent data-[hover=true]:bg-transparent text-[#DBC2FF] text-md"
                         endContent={icons.chevron}
                         radius="sm"
                         variant="light"
@@ -336,14 +336,14 @@ const Nav = () => {
                 </DropdownMenu>
                 </Dropdown>
                 <NavbarItem> {/* which is clicked is getting the isActive tag */}
-                <Link aria-current="page" href="#" className='text-white'>
+                <Link aria-current="page" href="#" className='text-[#DBC2FF]'>
                     Contact Us
                 </Link>
                 </NavbarItem>
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem>
-                <Button as={Link} className='bg-[#FFEB00] text-[#6D2323] rounded-md font-bold h-12 w-56 text-base' href="#" variant="flat">
+                <Button as={Link} className='bg-[#FFEB00] text-[#1E014C] rounded-full font-bold h-12 w-56 text-base' href="#" variant="flat">
                     Get A Fund Quote <ArrowUpRight />
                 </Button>
                 </NavbarItem>

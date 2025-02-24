@@ -8,23 +8,21 @@ import { ArrowUpRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <div className='hero'>
-       <div className='ml-auto mr-auto max-w-[1300px] flex justify-between'>
-        <div className='mt-32 left flex-1'>
-            <h1 className='font-bold text-6xl text-[#6D2323] leading-[67px]'> High Value Project Finance From Government Banks.</h1>
-            <p className='mt-8 text-[#6D2323] tracking-wide'>
-                We secure ₹10 Cr+ project funding through banks and private investors across various industries. 
-                We also arrange LCs and BGs for ₹10 Cr+ import-export deals via banks and ₹1 Cr+ without property from international banks. 
-                Based in Lucknow, we operate PAN India.
+    <div className='hero relative bg-[url(/Assets/backImage.png)] h-[1000px] bg-no-repeat bg-[center_top_-10rem] bg-cover'>
+       <div className='ml-auto mr-auto max-w-[1300px] h-full'>
+        <div className='text-center'>
+            <h1 className='ml-auto mr-auto pt-12 max-w-[1000px] font-bold text-6xl text-[#DBC2FF] leading-[67px]'> High Value Project Finance From Government Banks</h1>
+            <p className='ml-auto mr-auto mt-6 text-[#DBC2FF] tracking-wide max-w-[900px]'>
+            Get ₹10Cr+ project funding from banks and investors. 
+            We arrange LCs & BGs for ₹10Cr+ import-export deals and ₹1Cr+ without property via international banks. 
+            Based in Lucknow, serving PAN India
             </p>
-            <Button as={Link} className='mt-10 bg-[#FFEB00] text-[#6D2323] rounded-md font-bold h-12 w-56 text-base' href="#" variant="flat">
+            <Button as={Link} className='mt-8 bg-[#FFEB00] text-[#1E014C] rounded-full font-bold h-14 w-56 text-base' href="#" variant="flat">
                 Start Your Search <ArrowUpRight />
             </Button>
         </div>
-        <div className='mt-8 right flex-1 flex justify-end right'>
-            <Image src="/Assets/heroImage.png" width={600} height={600} />
-        </div>
        </div>
+       <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-[#250556]"></div>
     </div>
   )
 }
