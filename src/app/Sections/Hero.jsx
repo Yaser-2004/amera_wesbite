@@ -22,7 +22,7 @@ const Hero = () => {
             </Button>
         </div>
        </div>
-       <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-[#250556]"></div>
+       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-[#250556]"></div>
     </div>
   )
 }
